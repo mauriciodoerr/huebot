@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "env":
+            {
+                "QnAKnowledgebaseId": "9531aee8-150d-4ccc-b710-613993e65ef0",
+                "QnASubscriptionKey": "3cc17d8871f14ff3b4ef081f6d5c41e1",
+                "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=huebotonea4b2;AccountKey=CQu9gI7+6sbx6/YFkUkGYaNNj4kXGGwWIPd8i0L9WasSPU8+JMLS7HbUP4antof3aVasU/KXqO5yLlVLHvsLaA=="
+            }
+        }
+    ]
+}
